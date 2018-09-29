@@ -1,4 +1,4 @@
-# ÅäÖÃmysqlµÄÇı¶¯Àà£¬Êı¾İ¿âµØÖ·£¬Êı¾İ¿âÕËºÅ£¬ÃÜÂëĞÅÏ¢
+# é…ç½®mysqlçš„é©±åŠ¨ç±»ï¼Œæ•°æ®åº“åœ°å€ï¼Œæ•°æ®åº“è´¦å·ï¼Œå¯†ç ä¿¡æ¯
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -6,8 +6,8 @@ spring:
     username: root
     password: 123456
 
-  # Í¨¹ıjpaÔÚÊı¾İ¿âÖĞ½¨±í£¬½«jpa.hibernate,ddl-auto¸ÄÎªcreate£¬½¨Íê±íÖ®ºó£¬Òª¸ÄÎªupdate,Òª²»È»Ã¿´ÎÖØÆô¹¤³Ì»áÉ¾³ı±í²¢ĞÂ½¨
+  # é€šè¿‡jpaåœ¨æ•°æ®åº“ä¸­å»ºè¡¨ï¼Œå°†jpa.hibernate,ddl-autoæ”¹ä¸ºcreateï¼Œå»ºå®Œè¡¨ä¹‹åï¼Œè¦æ”¹ä¸ºupdate,è¦ä¸ç„¶æ¯æ¬¡é‡å¯å·¥ç¨‹ä¼šåˆ é™¤è¡¨å¹¶æ–°å»º
   jpa:
     hibernate:
-      ddl-auto: create # µÚÒ»´Î½¨±ícreate  ºóÃæÓÃupdate
+      ddl-auto: create # ç¬¬ä¸€æ¬¡å»ºè¡¨create  åé¢ç”¨update
     show-sql: true
