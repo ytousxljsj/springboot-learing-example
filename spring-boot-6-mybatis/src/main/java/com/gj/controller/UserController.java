@@ -17,6 +17,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    //@Transactional 声明事务 只需要加一行注解就可以了，前提你用的是jdbctemplate, jpa, mybatis，这种常见的orm。
     @PostMapping(value = "/add")
     public int addUser(UserDomain user) {
         return userService.addUser(user);
